@@ -52,7 +52,7 @@ class CategoriesWidget extends StatelessWidget {
                     ]
                 ),
                 child: Image.asset(
-                  "images/Pizza.png",
+                  "images/Pizzaw.png",
                   width: 50,
                   height: 50,
                 ),
@@ -75,7 +75,7 @@ class CategoriesWidget extends StatelessWidget {
                     ]
                 ),
                 child: Image.asset(
-                  "images/Burger.png",
+                  "images/burgerw.png",
                   width: 50,
                   height: 50,
                 ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'home_page.dart';
+import 'cart_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xFFF5F5F3),
       ),
      routes: {
-        "/": (context) => HomePage(),
+        "/" : (context) => HomePage(),
+       "cartPage" : (context) => CartPage(),
      },
     );
   }

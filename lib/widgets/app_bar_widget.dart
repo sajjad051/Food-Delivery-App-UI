@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'drawer_widget.dart';
+import 'package:flutter/src/material/scaffold.dart';
 
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({super.key});
@@ -13,7 +15,7 @@ class AppBarWidget extends StatelessWidget {
         children: [
           InkWell(
             onTap: () {
-              // press
+              Scaffold.of(context).openDrawer();
             },
             child: Container(
               padding: EdgeInsets.all(8),
@@ -34,7 +36,7 @@ class AppBarWidget extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              // press
+
             },
             child: Container(
               padding: EdgeInsets.all(8),
