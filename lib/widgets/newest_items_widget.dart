@@ -3,7 +3,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/cupertino.dart';
 
 class NewestItemsWidget extends StatelessWidget {
-  const NewestItemsWidget({super.key});
+   NewestItemsWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,9 @@ class NewestItemsWidget extends StatelessWidget {
                 child: Row(
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+
+                      },
                       child: Container(
                         alignment: Alignment.center,
                         child: Image.asset(
@@ -105,7 +107,9 @@ class NewestItemsWidget extends StatelessWidget {
                 child: Row(
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "itemPage");
+                      },
                       child: Container(
                         alignment: Alignment.center,
                         child: Image.asset(
@@ -115,6 +119,7 @@ class NewestItemsWidget extends StatelessWidget {
                         ),
                       ),
                     ),
+
                     Container(
                       width: 140,
                       child: Column(

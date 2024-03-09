@@ -40,7 +40,7 @@ class CartBottomNavBar extends StatelessWidget {
                   )
                 )
               ),
-              child: Text("Order Now"),
+              child: Text("Order Now",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
             ),
           ],
         ),
